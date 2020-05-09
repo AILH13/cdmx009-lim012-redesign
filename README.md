@@ -158,12 +158,164 @@ Durante la primera semana de trabajo en Banqui tienes que presentar tu plan de
 trabajo. Cómo planificas que vas a usar el tiempo y cuánto te vas a demorar en
 las distintas actividades de diseño.
 
+Planteamiento del Problema
+
+Banqui es una fintech nacida en Perú y en vías de expansión hacia México con la misión de ser una app que ayude a las personas a gestionar sus finanzas (gastos, ahorros, transferencias, pago de servicios y crowfunding) más fácilmente y sin realizarlo a través de un banco. Su público objetivo se ubica entre los 38 y 45 años de edad y suelen ser personas de clase económica media en adelante. Los principales retos para Banqui se encuentran en:
+- la necesidad de fidelizar a los usuarios ya que sólo el 10% de las descargas se registra,
+- la urgencia de diseñar una experiencia más intuitiva y cercana con el usuario puesto que la actual se presenta como “complicada de utilizar” para muchos,
+- el establecimiento del valor-ventaja de Banqui en comparación con otras fintech que ya han ganado terreno en el mercado mexicano,
+- la diversificación del servicio de ahorro para poder ofrecer distintas modalidades que puedan ajustarse a los objetivos y necesidades de los usuarios,
+- ampliar el tipo de usuario en cuanto a rango etario y nivel socioeconómico,
+- la falta de educación financiera en la población mexicana,
+- ser una startup y la falta de recursos económicos y humanos que ello implica.
+
+Dado lo anterior establecimos como objetivos generales del proyecto:
+- Considerar las necesidades de los usuarios de Banqui optimizando su experiencia en la app.
+- Mejorar los servicios actuales (sistema de ahorro, transferencias, pago de servicios).
+- Fidelizar a los usuarios ya obtenidos.
+- Proponer opciones futuras pensadas en el usuario (inversiones y crowfunding).
+- Establecer la identidad de Banqui y su valor-ventaja frente al usuario.
+
+
 ### 2) Diseño de la aplicación
 
 - El diseño de la aplicación tiene que cubrir los puntos requeridos por Banqui.
 - Todos los cambios realizados tienen que ser sustentados.
 - El diseño final hecho en Figma deberá comprender un Sistema de Diseño que
   utilice componentes reutilizables.
+
+Propuestas de Diseño
+Todas las modificaciones y agregados que se realizaron al prototipo original de Banqui están sustentadas en los testeos de usuario realizados a cinco personas ubicadas entre los 35 y los 55 años de edad, así como en la realización de una encuesta respecto a sus hábitos financieros (ocho personas) y un card sorting (seis personas) sobre la relación entre secciones y apartados considerados para la app. A continuación mostraremos un antes y un después de las diferentes pantallas que componen la aplicación con el objetivo de evidenciar los cambios realizados, los agregados, su justificación y las propuestas a futuro. 
+
+Bienvenida
+Logotipo y slogan
+El user testing nos mostró que hacía falta una bienvenida que presente a Banqui al usuario, reflejando una personalidad definida, amigable, segura y dispuesta a ayudar como nos lo comentó el product owner. En el prototipo original tan sólo se muestra el ícono de un banco (que no es el logotipo de Banqui) y su slogan, luego te pregunta por tu país de origen y te invita a comenzar para continuar en una pantalla que da a elegir entre registrarte o iniciar sesión. Todo esto sin antes decirte nada más respecto a quién o qué es Banqui y de qué se trata su aplicación.
+Por ello diseñamos cuatro pantallas: una de bienvenida y tres de introducción. La primera muestra un saludo con la frase “Hola soy” y el imagotipo de Banqui, seguido de nuestra propuesta de slogan que sería “Tu asistente y amigo financiero”.
+
+Introducción
+Las tres vistas de introducción resumen la utilidad de la aplicación así como el fin que tendrá la recopilación de datos sensibles como su nombre, su identificación, sus cuentas bancarias, sus hábitos financieros, etc.
+
+Diseño Original
+![Pantallas de Bienvenida del prototipo original](https://raw.githubusercontent.com/AILH13/cdmx009-lim012-redesign/master/img/App Original/Bienvenida.jpg)
+
+Propuesta de Diseño
+
+Sign Up or Login
+Logotipo y slogan
+En ésta sección se han hecho las mismas modificaciones que en la bienvenida con respecto al logotipo y el slogan de Banqui. 
+
+Diseño Original
+Propuesta de Diseño
+
+Registro
+Solicitud de datos personales
+Aquí hemos modificado el orden en el que se solicitan los datos del usuario debido a que en el diseño base comenzaban por el número de cuenta. Lo cual genera desconfianza dado que el proceso de registro en otras aplicaciones suele comenzar por datos básicos de identidad antes de pasar a datos más sensibles como las cuentas de banco. Por ello el orden sugerido ha sido el que se muestra en las pantallas.
+
+NIP de seguridad
+Después hemos agregado la creación de un “NIP” con la confirmación del mismo. Éste consta de un número de seguridad de 4 dígitos con el que posteriormente el usuario podrá ingresar a la app y confirmar operaciones.
+
+Nickname
+Consideramos importante permitir al usuario establecer un “nickname” o la forma en la que prefiere ser identificado con el propósito de que la experiencia sea más personalizada.
+
+Términos y condiciones
+Incluimos la oración “Acepto término y condiciones” en un link para que el usuario pueda leer los mismos y estar al tanto de los lineamientos legales bajo los que se rige Banqui y bajo los que se encontrará también de aceptarlos al marcar la casilla. De lo contrario se le negará la posibilidad de utilizar la aplicación. Ello con el doble propósito de informar al respecto a todo aquel que desee utilizar la app y como medida de protección legal para Banqui.
+
+Diseño Original
+Propuesta de Diseño
+
+Login
+Ícono
+Se ha modificado el ícono debido a que el original brindaba la sensación de “estar en una app en proceso de ser segura pero sin saber si llegará a ello”, así como de “tratarse de una aplicación lenta”. Lo cual atribuimos a las franjas horizontales.
+
+NIP
+Hemos sustituido el correo electrónico y una contraseña como pasos para loguearse por el NIP mencionado anteriormente. Debido a que permite un ingreso más rápido y fácil para el usuario. Siendo ésta una característica comentada por los user testers argumentando que otras aplicaciones lo implementan y les parece práctico y seguro.
+
+¿Olvidaste tu nip?
+También hemos añadido la pregunta y link “¿Olvidaste tu nip?” para facilitar el acceso a los usuarios en caso de haber extraviado u olvidado su nip y así poder restablecerlo.
+
+Opción de registro
+Consideramos pertinente agregar la opción de registrarse considerando que cabe la posibilidad de que por algún motivo quien ingrese no sea usuario de la aplicación pero se encuentre interesado en utilizarla. Por tal motivo añadimos la pregunta “¿No tienes una cuenta? Regístrate” enlazada con el link del proceso de registro.
+
+Diseño Original
+Propuesta de Diseño
+
+Home o Pantalla Principal
+Cabecera
+Optamos por marcar la cabecera de la pantalla principal con un fondo morado que se distingue del fondo blanco de las otras secciones donde incluimos tanto el nickname como la foto de perfil proporcionada en un inicio por el usuario. Aunado a ello en la parte inferior derecha de la foto aparece un pequeño botón con un lápiz para indicarle que es posible editar o cambiar la misma. Todo con el objetivo de hacer de Banqui no sólo una aplicación que ayuda a gestionar las finanzas sino que es también un espacio personal gracias a la consideración de la identidad, los gustos y las preferencias de sus usuarios. Aunado a ello, uno de los user tester comentó lo siguiente “Me gustaría que aquí (señalando la cabecera) dijera mi nombre o apareciera mi foto de perfil. Me hace sentir querido por la aplicación”. Comentario que nos pareció una demanda clara que podría ser satisfecha con lo propuesto. 
+
+Tarjeta, saldo disponible y CVV
+No hemos diseñado la app basándonos en el supuesto de que al registrarse en Banqui se genera una tarjeta virtual. La imagen de la tarjeta funge como representación de la tarjeta física con la que el usuario ya cuenta y que pertenece a alguna institución bancaria. Hemos optado por el uso del color verde agua para poder distinguirla en espacio e importancia de los demás elementos como la cabecera y la sección de “Pagos por vencer”, además de que es uno de los colores principales de la app. También hemos añadido la posibilidad de dar click sobre la misma para que ésta se gire mostrando su reverso, permitiendo conocer el código CVV de la misma. Dicho giro será rápido y no duraría más de un segundo antes de girarse de nuevo para volver a mostrar el frente. Ésto por motivos de seguridad ya que éste código no debe ser visto por otras personas, lo cual podría suceder si se encuentran muy cerca del usuario cuando éste consulte tal información.
+Por otro lado, hemos colocado la visualización del saldo disponible dentro de la tarjeta ya que se asocia a la misma y para poder ofrecer una vista más amplia y estructurada a la sección “Pagos por vencer” sin eliminar la posibilidad de mirar la cantidad en cuenta.
+
+Puntos
+Debajo de la tarjeta hemos colocado una serie de puntos para indicarle al usuario el número de tarjetas que tiene asociadas a la aplicación. Siendo posible deslizar hacia los laterales para visualizarlas.y consultar su código CVV si lo prefiere.
+
+Pagos por vencer
+Modificamos el fondo del título con la intención de resaltarlo y así indicar el inicio de dicha sección, ya que antes se mostraba confuso durante el uso entre sí era sólo el título de la sección o también un botón que te permite ingresar a los detalles y funciones de “Pagos por vencer”.
+
+Campana de notificaciones
+Durante los testeos los usuarios nos comentaron sobre la importancia de tener avisos y notificaciones que les informen sobre pagos próximos, pagos vencidos, pagos por vencer, movimientos realizados recientemente, etc. Por ello agregamos de manera flotante un botón con una campanita como apartado para las notificaciones.
+
+Apartado de referidos
+Hemos trasladado el apartado de referidos a la sección de notificaciones y recordatorios con la intención de brindar más espacio a la sección de “Pagos por Vencer” y así mantener ésta condición como un recordatorio para el usuario y no como un aviso que no es de vital importancia en un espacio para datos de mayor prioridad.
+
+Diseño Original
+Propuesta de Diseño
+
+Perfil
+Adicionamos este apartado luego de que durante las entrevistas un usuario nos comentara que le gustaría poder cambiar su foto de perfil, nickname o moneda después así como configurar el uso de cuentas, la vista de la app y la tarjeta, etc. Para eso creamos dos secciones dentro: perfil y configuración.
+En la primera es posible agregar o cambiar la foto de perfil, el nickname, el país, el correo, el número de teléfono y el modo oscuro de la app. En la segunda se trata de la configuración de las cuentas como la información de la tarjeta, su personalización, la contraseña o pin, el tipo de moneda y la posibilidad de consultar los términos y condiciones.
+
+Diseño Original
+Propuesta de Diseño
+
+Notificaciones
+En cuanto al apartado “Notificaciones”, como ya mencionamos anteriormente, surgió de la necesidad de tener recordatorios o avisos respecto a pagos por vencer, vencidos, ofertas, movimientos dentro de la app o avisos que desee dar Banqui al usuario. Colocando al costado derecho el día al que corresponde ya el recordatorio o la novedad, según se el caso.
+
+Diseño Original
+Propuesta de Diseño
+
+Iconos de Barra Principal Inferior
+Home
+Durante el user testing notamos cierto titubeo por parte de los usuarios al intentar volver a la página principal o home puesto que buscaban un icono relacionado con la misma más no lo encontraban. Clickeaban el ícono “Productos” suponiendo que si se encontraba al inicio de la barra podría ser el que los llevara a la página que buscaban. Por lo mismo optamos por utilizar un el ícono de una casa (como lo utilizan otras aplicaciones), situado al comienzo de la barra principal inferior, resaltado en color morado para indicar que es la página en la que se encuentra y la leyenda “Home”.
+
+Productos
+Decidimos mantener un ícono para el apartado “Productos” con la intención de incluir en un sólo sitio aquellos servicios que podría brindar Banqui aparte de las operaciones. Servicios como inversiones, crowdfunding o créditos, los cuales fueron solicitados por algunos user testers y encuestados.
+
+Operaciones
+En ésta sección implementamos un menú para poder englobar los distintos tipos de operaciones ya contemplada por el prototipo original (transferencias, pago de servicios y pago de tarjetas de crédito). Así mismo incluimos los ahorros, el historias de movimientos y el registro de gastos debido a que también son contemplados como operaciones por los user testers.
+
+Ayuda
+Se implementó éste apartado debido a que en el testeo nos mencionaron como pertinente la posibilidad de contar con un chat que permita contactar con un asesor en caso de duda o aclaración, así como un tutorial opcional para aprender a utilizar la aplicación y conocer todas sus funcionalidades. También incluimos la sección FAQ o bien “Preguntas Frecuentes” por si el usuario no desea contactar con un asesor, no lo considera tan necesario o su asunto es común en el uso de la aplicación.
+
+Diseño Original
+Propuesta de Diseño
+ 
+Gastos
+Para esta sección agregamos una gráfica de barras que permite comparar el porcentaje que se gasta por categoría y que al ingresar a alguna sea posible elegir la fecha que de la que deseamos conocer el monto gastado. Ello partiendo de que en el user testing se mencionara la posibilidad de realizar una comparativa de gasto entre categorías así como poder elegir la fecha (días, mes y año) para mirar los gastos correspondientes a la misma.
+ 
+Diseño Original
+Propuesta de Diseño
+
+Ahorros
+Respecto a la sección “Ahorro” hemos agregado al proceso de crear un ahorro la posibilidad de definir una fecha límite para el mismo, así como el monto total que se requiere ahorrar, la frecuencia con la que se destinarán recursos para ello (diario, semanal, mensual o anual) y la hora a la que será realizado. Una vez creado aparece un mensaje resumiendo las características establecidas y la pregunta “¿Deseas confirmar?” seguida de  dos botones. Uno para continuar y otro para realizar el ahorro después. Es así como decidimos atender a la inquietud que nos expresaron los usuarios respecto a no estar seguros de realizar operaciones dentro de la app por temor a que se les realicen cobros sin su consentimiento y por razones desconocidas.
+
+Diseño Original
+Propuesta de Diseño
+
+Transferencias
+En el prototipo de ésta sección incluimos una pestaña donde se registran las transferencias realizadas y una llamada ‘Favoritos’ Para aquellas cuentas y contactos con las que se lleva a cabo frecuentemente ésta operación con el objetivo de ahorrarle a los usuario los pasos de ingresar todo los datos necesarios para poder realizar la transferencia. Una vez llenos los campos y clickeando en “Transferir” aparecerá una notificación de éxito o fallo del movimiento para mantener informado al usuario del estado del status.
+
+Diseño Original
+Propuesta de Diseño
+
+Pago de Servicios y Pago de Tarjetas
+En cuanto al pago de servicios hemos sustituido el dato ‘Servicio’ por ‘Número de servicio’ para diferenciarlo del dato ‘Categoría’ que se requiere al principio. De igual forma hemos cambiado ‘Guardar servicio (opcional)’ por enviar comprobante a correo, ya que el primero generaba confusión y desconfianza en el usuario debido a que no entendían a qué se refería la app con esa opción.
+Por último, al finalizar el pago se muestra un comprobante en pantalla con un el número de de recibo, el importe, el vencimiento, la comisión y el correo al que se ha enviado el comprobante. Esto se debe a que los usuarios manifestaron requerir comprobantes de sus operaciones y sobre todo de los pagos de servicios que realizan.
+
+Diseño Original
+Propuesta de Diseño
+
 
 ## Contenido de referencia
 
