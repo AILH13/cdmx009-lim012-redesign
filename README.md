@@ -197,9 +197,12 @@ Por ello diseñamos cuatro pantallas: una de bienvenida y tres de introducción.
 Las tres vistas de introducción resumen la utilidad de la aplicación así como el fin que tendrá la recopilación de datos sensibles como su nombre, su identificación, sus cuentas bancarias, sus hábitos financieros, etc.
 
 Diseño Original
-![Pantalla1 de Bienvenida del prototipo original](img/App Original/Bienvenida.jpg)
+![Pantalla1 de Bienvenida del prototipo original](img/AppOriginal/Bienvenida.jpg)
+![Pantalla1 de Bienvenida del prototipo original](https://raw.githubusercontent.com/AILH13/cdmx009-lim012-redesign/master/img/AppOriginal/Bienvenida.jpg)
 
 Propuesta de Diseño
+
+
 
 Sign Up or Login
 * Logotipo y slogan
