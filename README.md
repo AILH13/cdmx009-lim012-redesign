@@ -199,9 +199,11 @@ Las tres vistas de introducción resumen la utilidad de la aplicación así como
 Diseño Original
 ![Pantalla1 de Bienvenida del prototipo original](img/AppOriginal/Bienvenida.jpg)
 ![Pantalla1 de Bienvenida del prototipo original](https://raw.githubusercontent.com/AILH13/cdmx009-lim012-redesign/master/img/AppOriginal/Bienvenida.jpg)
+![Pantalla2 de Bienvenida del prototipo original](img/AppOriginal/Bienvenida2.jpg)
 
 Propuesta de Diseño
-
+![Pantalla de Bienvenida de la propuesta de diseño](img/AppPropuesta/Bienvenida.jpg)
+![Pantalla de Introducción de la propuesta de diseño](img/AppPropuesta/Intro.jpg)
 
 
 Sign Up or Login
@@ -210,8 +212,11 @@ Sign Up or Login
 En ésta sección se han hecho las mismas modificaciones que en la bienvenida con respecto al logotipo y el slogan de Banqui. 
 
 Diseño Original
+![Pantalla de Sign Up o Login del prototipo original](img/AppOriginal/Bienvenida2.jpg)
 
 Propuesta de Diseño
+![Pantalla de Sign Up o Login de la propuesta de diseño](img/AppPropuesta/SignUpAndLogin.jpg)
+
 
 Registro
 * Solicitud de datos personales
@@ -231,8 +236,20 @@ Consideramos importante permitir al usuario establecer un “nickname” o la fo
 Incluimos la oración “Acepto término y condiciones” en un link para que el usuario pueda leer los mismos y estar al tanto de los lineamientos legales bajo los que se rige Banqui y bajo los que se encontrará también de aceptarlos al marcar la casilla. De lo contrario se le negará la posibilidad de utilizar la aplicación. Ello con el doble propósito de informar al respecto a todo aquel que desee utilizar la app y como medida de protección legal para Banqui.
 
 Diseño Original
+![Pantalla1 de Registro del prototipo original](img/AppOriginal/Registro1.jpg)
+![Pantalla2 de Registro del prototipo original](img/AppOriginal/Registro2.jpg)
+![Pantalla3 de Registro del prototipo original](img/AppOriginal/Registro3.jpg)
+![Pantalla4 de Registro del prototipo original](img/AppOriginal/Registro4.jpg)
 
 Propuesta de Diseño
+![Pantalla1 de registro de la propuesta de diseño](img/AppPropuesta/Registro.jpg)
+![Pantalla2 de registro de la propuesta de diseño](img/AppPropuesta/Registro2.jpg)
+![Pantalla3 de registro de la propuesta de diseño](img/AppPropuesta/Registro3.jpg)
+![Pantalla3.1 de registro de la propuesta de diseño](img/AppPropuesta/Registro3.1.jpg)
+![Pantalla3.2 de registro de la propuesta de diseño](img/AppPropuesta/Registro3.2.jpg)
+![Pantalla4 de registro de la propuesta de diseño](img/AppPropuesta/Registro4.jpg)
+![Pantalla5 de registro de la propuesta de diseño](img/AppPropuesta/Registro5.jpg)
+
 
 Login
 * Ícono
@@ -252,8 +269,10 @@ También hemos añadido la pregunta y link “¿Olvidaste tu nip?” para facili
 Consideramos pertinente agregar la opción de registrarse considerando que cabe la posibilidad de que por algún motivo quien ingrese no sea usuario de la aplicación pero se encuentre interesado en utilizarla. Por tal motivo añadimos la pregunta “¿No tienes una cuenta? Regístrate” enlazada con el link del proceso de registro.
 
 Diseño Original
+![Pantalla de Login del prototipo original](img/AppOriginal/LogIn1.jpg)
 
 Propuesta de Diseño
+![Pantalla de Login de la propuesta de diseño](img/AppPropuesta/Login1.jpg)
 
 Home o Pantalla Principal
 * Cabecera
@@ -282,8 +301,11 @@ Durante los testeos los usuarios nos comentaron sobre la importancia de tener av
 Hemos trasladado el apartado de referidos a la sección de notificaciones y recordatorios con la intención de brindar más espacio a la sección de “Pagos por Vencer” y así mantener ésta condición como un recordatorio para el usuario y no como un aviso que no es de vital importancia en un espacio para datos de mayor prioridad.
 
 Diseño Original
+![Pantalla de Home del prototipo original](img/AppOriginal/Home.jpg)
 
 Propuesta de Diseño
+![Pantalla de Home de la propuesta de diseño](img/AppPropuesta/Home.jpg)
+![Pantalla de Home con CVV de la propuesta de diseño](img/AppPropuesta/Home CVV.jpg)
 
 Perfil
 
@@ -292,16 +314,22 @@ Adicionamos este apartado luego de que durante las entrevistas un usuario nos co
 En la primera es posible agregar o cambiar la foto de perfil, el nickname, el país, el correo, el número de teléfono y el modo oscuro de la app. En la segunda se trata de la configuración de las cuentas como la información de la tarjeta, su personalización, la contraseña o pin, el tipo de moneda y la posibilidad de consultar los términos y condiciones.
 
 Diseño Original
+No tiene la opción de editar perfil.
 
 Propuesta de Diseño
+![Pantalla de Perfil de la propuesta de diseño](img/AppPropuesta/Perfil1.jpg)
+![Pantalla de Perfil de la propuesta de diseño](img/AppPropuesta/Perfil2.jpg)
 
 Notificaciones
 
 En cuanto al apartado “Notificaciones”, como ya mencionamos anteriormente, surgió de la necesidad de tener recordatorios o avisos respecto a pagos por vencer, vencidos, ofertas, movimientos dentro de la app o avisos que desee dar Banqui al usuario. Colocando al costado derecho el día al que corresponde ya el recordatorio o la novedad, según se el caso.
 
 Diseño Original
+No cuenta con la opción de notificaciones.
 
 Propuesta de Diseño
+![Pantalla de Notificaciones de la propuesta de diseño](img/AppPropuesta/Notificaciones.jpg)
+![Pantalla de Notificaciones de la propuesta de diseño](img/AppPropuesta/Notificaciones2.jpg)
 
 Iconos de Barra Principal Inferior
 * Home
@@ -321,32 +349,51 @@ En ésta sección implementamos un menú para poder englobar los distintos tipos
 Se implementó éste apartado debido a que en el testeo nos mencionaron como pertinente la posibilidad de contar con un chat que permita contactar con un asesor en caso de duda o aclaración, así como un tutorial opcional para aprender a utilizar la aplicación y conocer todas sus funcionalidades. También incluimos la sección FAQ o bien “Preguntas Frecuentes” por si el usuario no desea contactar con un asesor, no lo considera tan necesario o su asunto es común en el uso de la aplicación.
 
 Diseño Original
+![Pantalla de Barra Principal Inferior del prototipo original](img/AppOriginal/Home.jpg)
 
 Propuesta de Diseño
+![Pantalla de Barra Principal Inferior de la propuesta de diseño](img/AppPropuesta/Home.jpg)
  
 Gastos
 
 Para esta sección agregamos una gráfica de barras que permite comparar el porcentaje que se gasta por categoría y que al ingresar a alguna sea posible elegir la fecha que de la que deseamos conocer el monto gastado. Ello partiendo de que en el user testing se mencionara la posibilidad de realizar una comparativa de gasto entre categorías así como poder elegir la fecha (días, mes y año) para mirar los gastos correspondientes a la misma.
  
 Diseño Original
+![Pantalla de Gastos del prototipo original](img/AppOriginal/Gastos.jpg)
 
 Propuesta de Diseño
+![Pantalla1 de Gastos de la propuesta de diseño](img/AppPropuesta/Gastos1.jpg)
+![Pantalla2 de Gastos de la propuesta de diseño](img/AppPropuesta/Gastos2.jpg)
 
 Ahorros
 
 Respecto a la sección “Ahorro” hemos agregado al proceso de crear un ahorro la posibilidad de definir una fecha límite para el mismo, así como el monto total que se requiere ahorrar, la frecuencia con la que se destinarán recursos para ello (diario, semanal, mensual o anual) y la hora a la que será realizado. Una vez creado aparece un mensaje resumiendo las características establecidas y la pregunta “¿Deseas confirmar?” seguida de  dos botones. Uno para continuar y otro para realizar el ahorro después. Es así como decidimos atender a la inquietud que nos expresaron los usuarios respecto a no estar seguros de realizar operaciones dentro de la app por temor a que se les realicen cobros sin su consentimiento y por razones desconocidas.
 
 Diseño Original
+![Pantalla1 de Ahorros del prototipo original](img/AppOriginal/Ahorro1.jpg)
+![Pantalla2 de Ahorros del prototipo original](img/AppOriginal/Ahorro2.jpg)
+![Pantalla3 de Ahorros del prototipo original](img/AppOriginal/Ahorro3.jpg)
+![Pantalla4 de Ahorros del prototipo original](img/AppOriginal/Ahorro4.jpg)
 
 Propuesta de Diseño
+![Pantalla1 de Ahorros del prototipo original](img/AppOriginal/Ahorros1.jpg)
+![Pantalla2 de Ahorros del prototipo original](img/AppOriginal/Ahorros2.jpg)
+![Pantalla3 de Ahorros del prototipo original](img/AppOriginal/Ahorros3.jpg)
+![Pantalla4 de Ahorros del prototipo original](img/AppOriginal/Ahorros4.jpg)
 
 Transferencias
 
 En el prototipo de ésta sección incluimos una pestaña donde se registran las transferencias realizadas y una llamada ‘Favoritos’ Para aquellas cuentas y contactos con las que se lleva a cabo frecuentemente ésta operación con el objetivo de ahorrarle a los usuario los pasos de ingresar todo los datos necesarios para poder realizar la transferencia. Una vez llenos los campos y clickeando en “Transferir” aparecerá una notificación de éxito o fallo del movimiento para mantener informado al usuario del estado del status.
 
 Diseño Original
+No cuenta con el prototipado de la sección de transeferencias.
 
 Propuesta de Diseño
+![Pantalla1 de Transferencias del prototipo original](img/AppOriginal/Transferencias1.jpg)
+![Pantalla2 de Transferencias del prototipo original](img/AppOriginal/Transferencias2.jpg)
+![Pantalla3 de Transferencias del prototipo original](img/AppOriginal/Transferencias3.jpg)
+![Pantalla4 de Transferencias del prototipo original](img/AppOriginal/Transferencias4.jpg)
+![Pantalla5 de Transferencias del prototipo original](img/AppOriginal/Transferencias5.jpg)
 
 Pago de Servicios y Pago de Tarjetas
 
@@ -355,8 +402,25 @@ En cuanto al pago de servicios hemos sustituido el dato ‘Servicio’ por ‘N�
 Por último, al finalizar el pago se muestra un comprobante en pantalla con un el número de de recibo, el importe, el vencimiento, la comisión y el correo al que se ha enviado el comprobante. Esto se debe a que los usuarios manifestaron requerir comprobantes de sus operaciones y sobre todo de los pagos de servicios que realizan.
 
 Diseño Original
+![Pantalla1 de Operaciones del prototipo original](img/AppOriginal/Operaciones1.jpg)
+![Pantalla2 de Operaciones del prototipo original](img/AppOriginal/Operaciones2.jpg)
+![Pantalla3 de Operaciones del prototipo original](img/AppOriginal/Operaciones3.jpg)
+![Pantalla4 de Operaciones del prototipo original](img/AppOriginal/Operaciones4.jpg)
+![Pantalla5 de Operaciones del prototipo original](img/AppOriginal/Operaciones5.jpg)
+![Pantalla6 de Operaciones del prototipo original](img/AppOriginal/Operaciones6.jpg)
 
 Propuesta de Diseño
+![Pantalla1 de Operaciones del prototipo original](img/AppOriginal/Operaciones.jpg)
+![Pantalla1 de Pago de Servicios del prototipo original](img/AppOriginal/PagoServicios1.jpg)
+![Pantalla2 de Pago de Servicios del prototipo original](img/AppOriginal/PagoServicios2.jpg)
+![Pantalla3 de Pago de Servicios del prototipo original](img/AppOriginal/PagoServicios3.jpg)
+![Pantalla4 de Pago de Servicios del prototipo original](img/AppOriginal/PagoServicios4.jpg)
+![Pantalla1 de Pago de Tarjetas del prototipo original](img/AppOriginal/PagoTarjetas1.jpg)
+![Pantalla2 de Pago de Tarjetas del prototipo original](img/AppOriginal/PagoTarjetas2.jpg)
+![Pantalla3 de Pago de Tarjetas del prototipo original](img/AppOriginal/PagoTarjetas3.jpg)
+![Pantalla4 de Pago de Tarjetas del prototipo original](img/AppOriginal/PagoTarjetas4.jpg)
+![Pantalla5 de Pago de Tarjetas del prototipo original](img/AppOriginal/PagoTarjetas5.jpg)
+
 
 
 ## Contenido de referencia
